@@ -1,6 +1,10 @@
 function checkAnswer(value,num){
     if (checkStart === 0){
-        alert('게임을 시작해주세요');
+        alert('게임을 시작해주세요.');
+    }else if (value == ''){
+        alert('값을 입력해주세요.');
+    }else if (isNaN(value)===true){
+        alert('숫자를 입력해주세요.')
     }else{
         const node = document.createElement("li");
         const textnode = document.createTextNode(value);
