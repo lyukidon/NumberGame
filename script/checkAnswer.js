@@ -12,7 +12,7 @@ function checkAnswer(value,num){
         numList.appendChild(node);
         if(value<num){
             guide.innerHTML = '좀 더 큰 숫자입니다.'
-        }else if (value === num){
+        }else if (value == num){
             guide.innerHTML = '정답입니다.'
         }else{
             guide.innerHTML = '좀 더 작은 숫자입니다.'

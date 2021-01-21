@@ -15,6 +15,7 @@ function createRandom(value){
     }
 }
 startGame.addEventListener('click', function(){
+    resetGame;
     checkStart = 1;
     createRandom(slider.value)
 })
